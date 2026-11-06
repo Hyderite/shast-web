@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": ["public/dist/**/*.css", "**/*.min.css"],
+  "rules": {
+    "font-family-name-quotes": null,
+    "no-descending-specificity": null,
+    "property-no-vendor-prefix": null
+  }
+}

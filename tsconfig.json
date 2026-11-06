@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "outDir": "./public/dist/js",
+        "rootDir": "./public/src/ts",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "bundler",
+        "noEmit": false,
+        "allowImportingTsExtensions": false,
+        "noUncheckedSideEffectImports": false,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "public/src/ts/**/*"
+    ]
+}
